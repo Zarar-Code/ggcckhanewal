@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4885a55.css",
+    "main.js": "/static/js/main.bac5b9ee.js",
+    "static/js/726.f672de05.chunk.js": "/static/js/726.f672de05.chunk.js",
+    "static/media/Main.jpeg": "/static/media/Main.3a14ddefcae5d445770a.jpeg",
+    "static/media/Head.jpg": "/static/media/Head.0ebe8f0d5580d792938a.jpg",
+    "static/media/footer.jpeg": "/static/media/footer.17d6c9d63d0e15dc50e7.jpeg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/index.html",
+    "main.a4885a55.css.map": "/static/css/main.a4885a55.css.map",
+    "main.bac5b9ee.js.map": "/static/js/main.bac5b9ee.js.map",
+    "726.f672de05.chunk.js.map": "/static/js/726.f672de05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4885a55.css",
+    "static/js/main.bac5b9ee.js"
+  ]
+}
