@@ -33,7 +33,7 @@ const PrincipleM = () => {
             /></p>
         </div>
         <div className="pImage">
-            <img src={urlFor(curElem.pimage)} alt="" />
+           {curElem.pimage && <img src={urlFor(curElem.pimage)} alt="" /> } 
             <h5>PRINCIPAL</h5>
         </div>
     </div>

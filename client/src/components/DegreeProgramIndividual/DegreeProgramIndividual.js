@@ -59,7 +59,7 @@ const DegreeProgramIndividual = () => {
         return(
           <>
           <p>{curElem.name}</p>
-        <img src={urlFor(curElem.dsimage)} alt="" />
+        {curElem.dsimage && <img src={urlFor(curElem.dsimage)} alt="" /> }
         </>
         )
       })

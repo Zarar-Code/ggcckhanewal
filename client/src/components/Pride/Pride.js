@@ -55,7 +55,7 @@ const Pride = () => {
         <div className="top">
         <div className="Pride_card">
       <div class="pride" style={{width: "1rem;"}} key={curElem.id}>
-        <img src={urlFor(curElem.prideimage)} class="" alt="..."/>
+        {curElem.prideimage && <img src={urlFor(curElem.prideimage)} class="" alt="..."/> }
         <div class="card-body pride_body">
             <h5>{curElem.name}</h5>
             <h6>{curElem.session}</h6>

@@ -32,7 +32,7 @@ const Faculty = () => {
   faculty.map((curElm)=>{
     return(
       <div className="ffirst" data-aos="fade-up">
-        <img src={urlFor(curElm.facultyimage)} alt="" srcset="" />
+        {curElm.facultyimage && <img src={urlFor(curElm.facultyimage)} alt="" srcset="" /> }
         <h5>{curElm.name}</h5>
         <p>{curElm.designation}</p>
         <p>{curElm.qualification}</p>

@@ -29,11 +29,11 @@ const NewContent = () => {
         news.map((curElem)=>{
     return(
       <div className="card" key={curElem._id}>
-        <img src={urlFor(curElem.nimage)} className="card-img-top" alt="..."/>
+        {curElem.nimage && <img src={urlFor(curElem.nimage)} className="card-img-top" alt="..."/>}
         <div className="card-body">
         <Link onClick={scrollToTop} to={`/newDetail/${curElem._id}`}><h5 className="card-title">{curElem.name}</h5> </Link>
         <div class="card-text">
-             <p>Govt. GRADUATE COLLEGE OF COMMERCE KHANEWAL</p>
+             <p>GOVT. GRADUATE COLLEGE OF COMMERCE KHANEWAL</p>
            </div>
           <hr />
           <Link onClick={scrollToTop} to={`/newDetail/${curElem._id}`}>

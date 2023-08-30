@@ -19,6 +19,10 @@ const Slider = () => {
     })
     
   }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  };
   
 
     const responsive = {
@@ -57,15 +61,15 @@ const Slider = () => {
        events?.map((event)=>(
         <>
       <div class="card_crusel slider_card" style={{width: "1rem;"}} key={event._id}>
-      <img src={urlFor(event.fimage)} class="card-img-top" alt="..."/>
-        <div class="card-body slider_card_body">
-        <Link  to={`/eventDetail/${event._id}`}><h5 class="card-title">{event.name}</h5> </Link>
-          <p class="card-text">
-          <p>Govt. Associate Commerce College Kabirwala</p>
-          </p>
+      {event.fimage && <img src={urlFor(event.fimage)} class="card-img-top" alt="..." />}
+        <div class="card-body slider_card_body card-text-my">
+        <Link onClick={scrollToTop} to={`/eventDetail/${event._id}`}><h5 class="card-title card-name">{event.name}</h5> </Link>
+          <div class="card-text card-text-my">
+          <p>GOVT. GRADUATE COLLEGE OF COMMERCE KHANEWAL</p>
+          </div>
           <hr />
-          <Link to={`/eventDetail/${event._id}`}>
-          <p>More Details</p>
+          <Link onClick={scrollToTop} to={`/eventDetail/${event._id}`}>
+          <p className='more-detail'>More Details</p>
           </Link>
         </div>
       </div>

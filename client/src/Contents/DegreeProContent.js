@@ -65,7 +65,7 @@ const DegreeProContent = () => {
             return(
             <>
         <div className="containere invi-degree" data-aos="fade-up" key={curElem._id}>
-    <img src={urlFor(curElem.dimage)} alt="department" />
+    {curElem.dimage && <img src={urlFor(curElem.dimage)} alt="department" />}
     <p className="title">{curElem.name}</p>
     <div className="overlay"></div>
 <Link to={`/degreeProgam/${curElem._id}`} onClick={scrollToTop} className="button">Details</Link>

@@ -6,7 +6,8 @@ export default{
       {
           name:'name',
           title:'Name',
-          type:'string'
+          type:'string',
+          validation: Rule => Rule.required(),
       },
       {
           name:'detail',
@@ -17,6 +18,7 @@ export default{
         name:'fimage',
         title:'Main Images',
         type: 'image',
+        validation: Rule => Rule.required(),
         options: {
           hotspot: true,
         },

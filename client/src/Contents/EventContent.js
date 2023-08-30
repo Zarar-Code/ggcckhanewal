@@ -26,18 +26,18 @@ const EventContent = () => {
   return (
     <>
     <div className="news-card" >
-    {events?.map((event)=>(
+    {events.map((event)=>(
       <>
          <div class="card" key={event._id}>
-         <img src={urlFor(event.fimage)} class="card-img-top" alt="..."/>
-         <div class="card-body">
+         {event.fimage && <img src={urlFor(event.fimage)} class="card-img-top" alt="..." />}
+         <div class="card-body card-text-my">
          <Link onClick={scrollToTop} to={`/eventDetail/${event._id}`}><h5 class="card-title">{event.name}</h5> </Link>
-           <div class="card-text">
-             <p>Govt. Associate College of Commerce College Kabirwala</p>
+           <div class="card-text card-text-my">
+             <p>GOVT. GRADUATE COLLEGE OF COMMERCE KHANEWAL</p>
            </div>
            <hr />
            <Link onClick={scrollToTop} to={`/eventDetail/${event._id}`}>
-           <p>More Details</p>
+           <p className='more-detail'>More Details</p>
            </Link>
          </div>
        </div>

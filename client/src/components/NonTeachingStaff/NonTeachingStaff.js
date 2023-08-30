@@ -28,7 +28,7 @@ const NonTeachingStaff = () => {
   nonteach.map((curElm)=>{
     return(
       <div className="ffirst" data-aos="fade-up">
-        <img src={urlFor(curElm.nteachimage)} alt="Non_Teaching Staff" />
+        {curElm.nteachimage && <img src={urlFor(curElm.nteachimage)} alt="Non_Teaching Staff" /> }
         <h5>{curElm.name}</h5>
         <p>{curElm.designation}</p>
         <p>{curElm.qualification}</p>

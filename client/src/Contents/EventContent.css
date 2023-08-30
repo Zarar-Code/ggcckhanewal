@@ -34,3 +34,13 @@ h3::after{
     align-items: center;
     margin: 20px 0px;
 }
+.more-detail{
+    color: var(--bar-color);
+}
+.more-detail:hover{
+    color: var(--pink-color);
+}
+.card-text-my p{
+    margin-top: 0px;
+    padding: 6px;
+}
